@@ -40,4 +40,4 @@ pnpm build
 2. Tailwind CSS
 3. React JS
 4. Vite.JS
-5. Firebase 9
+5. Firebase 10
