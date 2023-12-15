@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./index.html'],
+	content: ["./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",],
 	theme: {
 		fontFamily: {
 			ubuntu: 'Ubuntu, sans-serif',
@@ -12,5 +13,6 @@ module.exports = {
 		require('@tailwindcss/forms'),
 		require('@tailwindcss/line-clamp'),
 		require('@tailwindcss/typography'),
+		require('tailwind-scrollbar-hide')
 	],
 };
